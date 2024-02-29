@@ -1,0 +1,697 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    background-color: #F0F3FF;
+    height: 15vh;
+}
+.one {
+    background-color: #F0F3FF;
+    height: 110vh;
+}
+.two{
+    background-color:#F0F3FF ;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three{
+    background-color:#F0F3FF;
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+}
+.four{
+    background-color: #F0F3FF;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+.five{
+    background-color: #F0F3FF;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+.six{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+/*navigasi Bar*/
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 5px;
+    right: 15%;
+}
+
+.navbar-nav{
+    display: flex;
+    position: absolute;
+    left: 56%;
+    color: black;
+}
+
+.navbar .navic img{
+    width: 60px; 
+    height: auto; 
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+    color: black;
+}
+.nav-item{
+    margin: 0 22px; 
+    padding: 0;
+    list-style-type: none;
+    z-index: 1;
+    font-weight: bold;
+}
+/*Add media quary */
+.project{
+    flex: 1;
+    width: 500px;
+    height: 750px;
+}
+.one .item img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    top: 20%;
+    left: 42%;
+    border-radius: 20px;
+}
+.one .text h1{
+    font-size: 50px;
+    color: grey;
+    position: absolute;
+    right: 70.3%;
+    top: 44%;
+}
+.one .text h3{
+    font-size: 30px;
+    position: absolute;
+    right: 80%;
+    top:51%
+}
+
+/*Arrows*/
+.arrows{
+    position: absolute;
+    top: 90%;
+    right: 66%;
+    z-index: 100;
+    width: 300px;
+    max-width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.arrows button{
+    width: 40px;
+    height: 40px;
+    border-radius: 15%;
+    background-color: grey;
+    border: none;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+    transition: .5s;
+}
+.arrows button:hover{
+    background-color: silver;
+}
+.arrows button:active {
+    background-color: rgb(133, 133, 133);
+    transform: translateY(10px)
+ }
+.about{
+    background-color: #ccc;
+    display: flex;
+    width: 180vh;
+    height: 70vh;
+    border-radius: 10px;
+
+}
+.two .about .box{
+    flex: 1;
+    width: 500px;
+    height: 300px;
+}
+.about .box2{
+    flex: 1;
+    width: 500px;
+    height: 300px;
+}
+/*Add Media Quory*/
+.two .about .box .pic2{
+    width: 270px;
+    position: relative;
+    bottom: 76px;
+    margin: 3px;
+    border-radius: 4px;
+}
+.two .about .box .pic4{
+    width: 270px;
+    height: 345px;
+    position: relative;
+    top: 34px;
+    border-radius: 4px;
+}
+.two .about .box .pic3{
+    width: 270px;
+    position: relative;
+    bottom: 75px;
+    border-radius: 4px;
+}
+.two .box2 h1{
+    font-size: 40px;
+}
+.two .box2 p{
+    margin-top: 6px;
+}
+.two .box2 button{
+    background-color:black;/*jangan lupa hapus*/
+    color: whitesmoke;
+    border: none;
+    width: 145px;
+    height: 50px;
+    position: relative;
+    top: 140px;
+    border-radius: 8px;
+}
+.two .box2 button:hover{
+    background-color: grey;
+}
+.two .box2 button:active {
+    background-color: black;
+    transform: translateY(5px);
+}
+.focus{
+    display: flex;
+    width: 180vh;
+    height: 80vh;
+}
+.three .box3{
+    flex: 1;
+    width: 500px;
+    height: 300px;
+}
+.three .box4{
+    flex: 1;
+    width: 500px;
+    height: 300px;
+}
+.box3 h1{
+    width: 100%;
+    font-size: 35px;
+}
+.state{
+    display: flex;
+    height: 240px;
+}
+.point{
+    display: flex;
+}
+.point h1{
+    font-size: 200px;
+}
+.point p{
+    position: relative;
+    top: 50px;
+}
+.point2{
+    display: flex;
+    position: relative;
+}
+.point2 h1{
+    font-size: 200px;
+}
+.point2 p{
+    position: relative;
+    top: 50px;
+}
+.sample{
+    display: flex;
+    flex-wrap: wrap;
+    width: 180vh;
+    height: 80vh;
+    position: relative;
+}
+
+.sample .image {
+        flex: 0 0 50%;
+        height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .sample .img1 {
+        background-image: url(image/pic5.png);
+        border-radius: 10px;
+    }
+    
+    .sample .image.img2 {
+        background-image: url(image/pic6.png);
+        background-color: blue;
+        border-radius:10px ;
+    }
+    
+.sample .image.img3,
+.sample .image.img4,
+.sample .image.img5 {
+    flex-basis: calc(33.33% - 2px); /* 33.33% untuk sepertiga lebar, 2px untuk border */
+    height: 25vh;
+    box-sizing: border-box; /* tambahkan ini */
+    margin: 0 1px; /* tambahkan ini */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sample .image.img3 {
+    background-image: url(image/pic7.png);
+    background-color: green;
+    border-radius: 10px;
+}
+
+.sample .image.img4 {
+    background-image: url(image/pic8.png);
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.sample .image.img5 {
+    background-image: url(image/pic9.png);
+    background-color: purple;
+    border-radius: 10px;
+}
+.four button{
+    color: whitesmoke;
+    align-self: flex-end;
+    justify-content: flex-end;
+    background-color: black;
+    border: none;
+    position: relative;
+    right:13.6vh;
+    width: 145px;
+    height: 50px;
+    border-radius: 5px;
+}
+.four button:hover{
+    background-color: grey;
+}
+.four button:active{
+    background-color: black;
+    transform: translateY(5px);
+}
+.textit {
+    margin-bottom: 10px;
+    align-self:flex-start;
+    position: relative;
+    left: 82px;
+    margin: 10px;
+    font-size: 40px;
+}
+
+.contact{
+    display: flex;
+    width: 180vh;
+    height: 95vh;
+}
+.box5{
+    flex: 1;
+    width: 500px;
+    height: 300px;
+}
+.box6{
+    flex: 1;
+    width: 749px;
+    height: 369px;
+    background-image:url(image/pic10.png);
+    border-radius: 8px;
+}
+.box5 input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    resize: vertical;
+  }
+.box5 input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    resize: vertical;
+  }
+.box5 input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    resize: vertical;
+  }
+.box5 input[type=text], select, Message {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    resize: vertical;
+  }
+  #Message {
+    height: 150px;
+    padding-left: 10px;
+    padding-bottom: 25vh;
+}
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+  }
+  
+  input[type=submit]:hover {
+  }
+.box6{
+    flex-grow: 2;
+    margin-top: 5px;
+}
+.footer{
+    display: flex;
+    width: 180vh;
+    height: 60vh;
+}
+.box7{
+    width: 250px;
+}
+.box7 img{
+    position: relative;
+    top: 80px;
+    left: 10vh;
+}
+.box8{
+    width: 300px;
+}
+.box8 h4{
+    margin: 30px;
+    color: whitesmoke;
+}
+.box8 .fttext h4{
+    font-size: medium;
+    margin: 30px;
+}
+.box9{
+    flex: 1;
+}
+.box9 h3{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+    max-width: 100vh;
+    color: whitesmoke;
+}
+.box9 h4{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 12px;
+    max-width: 100vh;
+    color: whitesmoke;
+}
+.svg-icon {
+    width: 2em;
+    height: 2em;
+    margin: 1px;
+    position: relative;
+    top: 9px;
+    right: 8px;
+    margin-left: 20px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: whitesmoke;
+  }
+  
+  .svg-icon circle {
+    stroke: whitesmoke;
+    stroke-width: 1;
+    size: bi;
+  }
+  
+.box10{
+    width: 250px;
+}
+.box10 h4{
+    margin-top: 15px;
+    padding: 20px;
+    color: whitesmoke;
+}
+/*Page 2*/
+.pg2-one{
+    background-color:#F0F3FF;
+    display: flex;
+    height: 140vh;
+    flex-direction: column;
+}
+.page2{
+    display: grid;
+    border: 2px solid green;
+    width: 160vh;
+    height: 80vh;
+}
+.pg2-one .pg2-text{
+    color: grey;
+    font-size: 40px;
+    align-self: flex-start;
+    position: relative;
+    left: 24vh;
+}
+.pg2-one .pg2-text h3{
+    color:black;
+    font-size: 30px;
+    align-self: flex-start;
+}
+.page2 .pg2-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.page2 .pg2-box1{
+    flex: 1;
+    background-image: url(image/Rectangle\ 23.png);
+    background-color: bisque;
+}
+.page2 .pg2-box2{
+    flex: 1;
+    background-image: url(image/Rectangle\ 30.png);
+}
+.page2 .pg2-box3{
+    flex: 1;
+    background-image: url(image/Rectangle\ 24.png);
+    background-color: rgb(0, 255, 64);
+}
+.page2 .pg2-box4{
+    flex: 1;
+    background-image: url(image/Rectangle\ 25.png);
+    background-color: rgb(212, 0, 255);
+}
+.page2 .pg2-box5{
+    flex: 1;
+    background-image: url(image/Rectangle\ 26.png);
+    background-color: rgb(201, 247, 0);
+}
+.page2 .pg2-box6{
+    flex: 1;
+    background-image: url(image/Rectangle\ 27.png);
+    background-color: rgb(97, 189, 218);
+}
+.page2 .pg2-box7{
+    flex: 1;
+    background-image: url(image/Rectangle\ 28.png);
+    background-color: rgb(24, 24, 23);
+}
+.page2 .pg2-box8{
+    flex: 1;
+    background-image: url(image/Rectangle\ 29.png);
+    background-color: rgb(6, 33, 189);
+}
+.page2 .pg2-box9{
+    flex: 1;
+    background-image: url(image/Rectangle\ 30.png);
+    background-color: rgb(196, 255, 199);
+}
+.page2 .pg2-box10{
+    flex: 1;
+    background-image: url(image/Rectangle\ 31.png);
+    background-color: rgb(240, 11, 11);
+}
+.page3{
+    display: flex;
+    background-color:#F0F3FF;
+    height: 70vh;
+}
+.pg3-box{
+    display: flex;
+    background-color: #ccc;
+    width: 180vh;
+    height: 65vh;
+    border-radius: 8px;
+}
+.pg3-box1{
+    width: 100vh;
+    background-image: url(image/image\ 30.png);
+    background-color: red;
+    border-radius: 8px;
+}
+.pg3-box2{
+    flex: 1;
+}
+.pg3-box2 .pg3-text h1{
+    font-size: 35px;
+}
+.pg3-box2 .pg3-text p{
+    margin-top: 60px;
+}
+.pg3-box2 button{
+    background-color:black;/*jangan lupa hapus*/
+    color: whitesmoke;
+    border: none;
+    width: 145px;
+    height: 50px;
+    position: relative;
+    top: 140px;
+    border-radius: 8px;
+}
+.pg3-box2 button:hover{
+    background-color: grey;
+}
+.pg3-box2 button:active {
+    background-color: black;
+    transform: translateY(5px);
+}
+/**/
+.page4{
+    height: 70vh;
+    display: flex;
+    background-color: #F0F3FF;
+}
+.pg4-box{
+    display: flex;
+    background-color: #ccc;
+    width: 180vh;
+    height: 65vh;
+    border-radius: 8px;
+}
+.pg4-box1{
+    width: 100vh;
+    background-image: url(image/image\ 31.png);
+    background-color: red;
+    border-radius: 8px;
+}
+.pg4-box2{
+    flex: 1;
+}
+.pg4-box2 .pg4-text h1{
+    font-size: 35px;
+}
+.pg4-box2 .pg4-text p{
+    margin-top: 60px;
+}
+.pg4-box2 button{
+    background-color:black;/*jangan lupa hapus*/
+    color: whitesmoke;
+    border: none;
+    width: 145px;
+    height: 50px;
+    position: relative;
+    top: 140px;
+    border-radius: 8px;
+}
+.pg4-box2 button:hover{
+    background-color: grey;
+}
+.pg4-box2 button:active {
+    background-color: black;
+    transform: translateY(5px);
+}
+.page5{
+    display: flex;
+    background-color: #F0F3FF;
+    height: 70vh;
+}
+.pg5-box{
+    display: flex;
+    background-color: #ccc;
+    width: 180vh;
+    height: 65vh;
+    border-radius: 8px;
+}
+.pg5-box1{
+    width: 100vh;
+    background-image: url(image/image\ 32.png);
+    background-color: red;
+    border-radius: 8px;
+}
+.pg5-box2{
+    flex: 1;
+}
+.pg5-box2 .pg5-text h1{
+    font-size: 35px;
+}
+.pg5-box2 .pg5-text p{
+    margin-top: 60px;
+}
+.pg5-box2 button{
+    background-color:black;/*jangan lupa hapus*/
+    color: whitesmoke;
+    border: none;
+    width: 145px;
+    height: 50px;
+    position: relative;
+    top: 140px;
+    border-radius: 8px;
+}
+.pg5-box2 button:hover{
+    background-color: grey;
+}
+.pg5-box2 button:active {
+    background-color: black;
+    transform: translateY(5px);
+}
